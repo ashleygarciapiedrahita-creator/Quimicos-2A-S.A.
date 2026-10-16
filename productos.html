@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Empresas - Bolívar Clean</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background-color: #eef8f5;
+}
+
+
+/* ENCABEZADO */
+
+.encabezado {
+    background: linear-gradient(135deg, #003b5c, #008f5a);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.encabezado h1 {
+    font-size: 36px;
+    margin: 5px;
+}
+
+.encabezado p {
+    font-size: 18px;
+}
+
+
+/* INTRODUCCIÓN */
+
+.introduccion {
+    background-color: white;
+    border: 3px solid #0066a1;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduccion h2 {
+    color: #0066a1;
+}
+
+.introduccion p {
+    line-height: 1.6;
+}
+
+
+/* CONTENEDOR */
+
+.empresa {
+    margin-bottom: 35px;
+}
+
+
+/* TÍTULO DE EMPRESA */
+
+.titulo-empresa {
+    color: white;
+    padding: 18px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    background-color: #0066a1;
+}
+
+.titulo-empresa h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+/* FRAMES */
+
+.contenedor {
+    display: flex;
+    gap: 18px;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid #0066a1;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+}
+
+.frame {
+    flex: 1;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: #f4faf8;
+    border: 2px solid #00a568;
+    min-height: 170px;
+}
+
+.frame h3 {
+    color: #0066a1;
+    text-align: center;
+    border-bottom: 2px solid #00a568;
+    padding-bottom: 8px;
+}
+
+.frame p {
+    line-height: 1.5;
+}
+
+
+/* MARCAS */
+
+.marca {
+    background-color: #b8f5d8;
+    text-align: center;
+    border: 3px solid #008f5a;
+}
+
+.marca h3 {
+    color: #003b5c;
+    font-size: 25px;
+}
+
+
+/* PRODUCTO */
+
+.producto {
+    background-color: #e8f5ff;
+    border: 3px solid #0066a1;
+}
+
+
+/* PRECIO */
+
+.precio {
+    background-color: #0066a1;
+    color: white;
+    text-align: center;
+}
+
+.precio h3 {
+    color: white;
+}
+
+.precio strong {
+    font-size: 25px;
+}
+
+
+/* INFORMACIÓN GENERAL */
+
+.informacion {
+    background-color: white;
+    border: 3px solid #00a568;
+    border-radius: 18px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.informacion h2 {
+    color: #008f5a;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #e0f5ed;
+    border: 2px solid #0066a1;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+
+/* FINAL */
+
+.final {
+    margin-top: 30px;
+    background: linear-gradient(135deg, #0066a1, #008f5a);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.final h2 {
+    margin-top: 0;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 800px) {
+
+    .contenedor {
+        display: block;
+    }
+
+    .frame {
+        margin-bottom: 15px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- ENCABEZADO -->
+
+<div class="encabezado">
+
+    <h1>
+        Empresas de Productos Químicos
+    </h1>
+
+    <p>
+        Bolívar Clean
+    </p>
+
+</div>
+
+
+<!-- INTRODUCCIÓN -->
+
+<div class="introduccion">
+
+    <h2>
+        Empresas relacionadas con nuestros productos
+    </h2>
+
+    <p>
+        En esta sección presentamos algunas empresas
+        reconocidas relacionadas con los productos de
+        limpieza que forman parte de nuestra propuesta.
+    </p>
+
+    <p>
+        Cada empresa se relaciona con uno de nuestros
+        principales productos: cloro, desinfectante y
+        jabón líquido para manos.
+    </p>
+
+</div>
+
+
+<!-- EMPRESA DEL CLORO -->
+
+<div class="empresa">
+
+    <div class="titulo-empresa">
+
+        <h2>
+            Empresa de Cloro
+        </h2>
+
+    </div>
+
+
+    <div class="contenedor">
+
+
+        <div class="frame marca">
+
+            <h3>
+                Clorox
+            </h3>
+
+            <p>
+                Clorox es una empresa conocida por sus
+                productos de limpieza y desinfección.
+            </p>
+
+        </div>
+
+
+        <div class="frame producto">
+
+            <h3>
+                Producto
+            </h3>
+
+            <p>
+                El producto relacionado es el
+                <strong>cloro</strong>, utilizado
+                principalmente para tareas de limpieza
+                y desinfección.
+            </p>
+
+        </div>
+
+
+        <div class="frame">
+
+            <h3>
+                Características
+            </h3>
+
+            <p>
+                El cloro es utilizado para ayudar a
+                mantener diferentes espacios limpios
+                y desinfectados.
+            </p>
+
+        </div>
+
+
+        <div class="frame precio">
+
+            <h3>
+                Precio referencial
+            </h3>
+
+            <strong>
+                $1,50
+            </strong>
+
+            <p>
+                Precio de nuestro producto.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- EMPRESA DEL DESINFECTANTE -->
+
+<div class="empresa">
+
+    <div class="titulo-empresa" style="background-color:#008f5a;">
+
+        <h2>
+            Empresa de Desinfectante
+        </h2>
+
+    </div>
+
+
+    <div class="contenedor" style="border-color:#008f5a;">
+
+
+        <div class="frame marca">
+
+            <h3>
+                Lysol
+            </h3>
+
+            <p>
+                Lysol es una marca reconocida por sus
+                productos destinados a la limpieza y
+                desinfección.
+            </p>
+
+        </div>
+
+
+        <div class="frame producto">
+
+            <h3>
+                Producto
+            </h3>
+
+            <p>
+                El producto relacionado es el
+                <strong>desinfectante</strong>, utilizado
+                para ayudar a mantener limpios diferentes
+                espacios.
+            </p>
+
+        </div>
+
+
+        <div class="frame">
+
+            <h3>
+                Características
+            </h3>
+
+            <p>
+                Los desinfectantes son utilizados para
+                complementar las actividades de limpieza
+                de diferentes superficies.
+            </p>
+
+        </div>
+
+
+        <div class="frame precio">
+
+            <h3>
+                Precio referencial
+            </h3>
+
+            <strong>
+                $2,50
+            </strong>
+
+            <p>
+                Precio de nuestro producto.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- EMPRESA DEL JABÓN -->
+
+<div class="empresa">
+
+    <div class="titulo-empresa">
+
+        <h2>
+            Empresa de Jabón Líquido
+        </h2>
+
+    </div>
+
+
+    <div class="contenedor">
+
+
+        <div class="frame marca">
+
+            <h3>
+                Palmolive
+            </h3>
+
+            <p>
+                Palmolive es una marca conocida por sus
+                productos de higiene y cuidado personal.
+            </p>
+
+        </div>
+
+
+        <div class="frame producto">
+
+            <h3>
+                Producto
+            </h3>
+
+            <p>
+                El producto relacionado es el
+                <strong>jabón líquido para manos</strong>,
+                utilizado para la higiene personal.
+            </p>
+
+        </div>
+
+
+        <div class="frame">
+
+            <h3>
+                Características
+            </h3>
+
+            <p>
+                El jabón líquido permite realizar una
+                correcta limpieza de las manos y mantener
+                buenos hábitos de higiene.
+            </p>
+
+        </div>
+
+
+        <div class="frame precio">
+
+            <h3>
+                Precio referencial
+            </h3>
+
+            <strong>
+                $3,00
+            </strong>
+
+            <p>
+                Precio de nuestro producto.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- INFORMACIÓN GENERAL -->
+
+<div class="informacion">
+
+    <h2>
+        Resumen de empresas
+    </h2>
+
+    <div class="lista">
+
+        <div class="item">
+            Clorox → Cloro
+        </div>
+
+        <div class="item">
+            Lysol → Desinfectante
+        </div>
+
+        <div class="item">
+            Palmolive → Jabón líquido
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FINAL -->
+
+<div class="final">
+
+    <h2>
+        Bolívar Clean
+    </h2>
+
+    <p>
+        Productos químicos para la limpieza,
+        desinfección e higiene.
+    </p>
+
+    <p>
+        Calidad • Responsabilidad • Higiene
+    </p>
+
+</div>
+
+
+</body>
+
+</html>
+
